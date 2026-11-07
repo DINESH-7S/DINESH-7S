@@ -15,4 +15,4 @@ Python, TypeScript, FastAPI, React, Next.js, PostgreSQL / Supabase, pgvector, sc
 
 I practise DSA most days in [leetcode](https://github.com/DINESH-7S/leetcode).
 
-You can find me on [LinkedIn](https://www.linkedin.com/in/dineshnleo), and my resume is [here](https://github.com/DINESH-7S/insightengine/blob/main/docs/Dinesh_N_Resume.pdf).
+You can find me on [LinkedIn](https://www.linkedin.com/in/dineshnleo), and my resume is [here](https://github.com/DINESH-7S/DINESH-7S/blob/main/Dinesh_N_Resume.pdf).
