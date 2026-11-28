@@ -1,24 +1,31 @@
-# Hi, I'm Dinesh
+# Dinesh N
 
-Second-year B.Tech student in AI & Data Science at SNS College of Technology, Coimbatore. I build retrieval (RAG) systems and full-stack apps, and I care about measuring whether they work. I'm looking for an ML engineering or forward-deployed engineering internship.
+B.Tech in AI & Data Science (second year), SNS College of Technology, Coimbatore.
 
-## Projects
+I work on market microstructure and trading infrastructure, and on retrieval systems that are evaluated rather than demoed. Looking for quant developer, quant research or ML engineering internships.
 
-**[DHRUV](https://github.com/DINESH-7S/dhruv-ai)**: Smart India Hackathon 2026 prototype (SIH26063) that turns one uploaded polar-science document into summaries, page-cited answers, articles and lessons in English and Hindi, with a second person approving everything before it goes public.
-Its public test set has 32 hand-checked questions: 26 of 26 facts correct with the right source, 5 of 6 out-of-archive questions answered "not in the archive", and the miss is shown on the page. 0 WCAG 2.1 AA violations in automated checks.
-I led the team and built the full stack. *Next.js, Supabase, pgvector.*
+## Current work
 
-**[ElderGuard AI](https://github.com/DINESH-7S/elderguard-ai)**: elder-care platform with medicine alarms that ring until answered and a one-tap SOS that escalates (caregiver, second contact at 2 min, hospital at 5, emergency services at 10). Five portals share one record. The README lists what it does not do yet.
-Team lead. *React, FastAPI, APScheduler.*
+**[lob-sim](https://github.com/DINESH-7S/lob-sim)**: limit order book, matching engine and market simulator, built from scratch in public.
 
-**[InsightEngine](https://github.com/DINESH-7S/insightengine)**: RAG app with page-cited answers and five retrieval strategies, plus an evaluation script that reports hit rate, MRR and latency per strategy on your own documents. Has tests and CI.
-*FastAPI, Streamlit, Qdrant.*
+- Done: strict price-time priority, limit and market orders, GTC / IOC / FOK, O(1) cancel, integer tick prices (no floating point in the matching path), randomised invariant tests (book never crosses, no overfills), CI.
+- Next: deterministic replay from an append-only event log, Hawkes-process order flow, an Avellaneda-Stoikov market maker with a queue-position fill model, and a C++ port with throughput and p99 latency benchmarks.
 
-**[SmartAttend](https://github.com/DINESH-7S/SmartAttend)**: QR attendance with 60-second codes and proxy-marking checks, with [@bhoopesh282008](https://github.com/bhoopesh282008).
+The README marks what is built and what is not.
 
-## Also
+## Selected projects
 
-- [36 LeetCode problems](https://github.com/DINESH-7S/leetcode) in Python, one folder each.
-- Stack: Python, TypeScript, FastAPI, React, Next.js, PostgreSQL / Supabase, pgvector, scikit-learn, Qdrant.
+**[InsightEngine](https://github.com/DINESH-7S/insightengine)**: RAG system with five retrieval strategies and an evaluation harness that reports hit rate, MRR and latency per strategy. Tests and CI. *FastAPI, Qdrant, Streamlit.*
+
+**[DHRUV](https://github.com/DINESH-7S/dhruv-ai)**: Smart India Hackathon 2026 prototype (SIH26063), a bilingual polar-science archive with page-cited answers and human approval before publishing. On a 32-question hand-checked test set: 26/26 in-archive facts correct with the right source, 5/6 out-of-archive questions correctly refused. Team lead, full stack. *Next.js, Supabase, pgvector.*
+
+**[ElderGuard AI](https://github.com/DINESH-7S/elderguard-ai)**: elder-care platform with medicine alarms that repeat until acknowledged and a tiered SOS escalation (2 / 5 / 10 minutes). Team lead. *React, FastAPI, APScheduler.*
+
+**[SmartAttend](https://github.com/DINESH-7S/SmartAttend)**: QR attendance with 60-second codes and proxy-marking checks, with [@bhoopesh282008](https://github.com/bhoopesh282008). *Node, React, scikit-learn.*
+
+## Other
+
+- [LeetCode solutions](https://github.com/DINESH-7S/leetcode) in Python, one folder per problem.
+- Tools: Python, TypeScript, FastAPI, PostgreSQL, pgvector, Qdrant, scikit-learn, React, Next.js.
 
 [LinkedIn](https://www.linkedin.com/in/dineshnleo) · [Resume](https://github.com/DINESH-7S/DINESH-7S/blob/main/Dinesh_N_Resume.pdf)
